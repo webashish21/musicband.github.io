@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Sriracha', cursive;
+    text-align: justify;
+
+}
+.background_image{
+    background-image: url(https://www.morrisonhotelgallery.com/images/big/MHG-Blue%20Crowd.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+ 
+
+  }
+  #main{
+    padding: 0;
+    margin: 0;
+  }
+  .header{
+      width: 100%;
+      min-height: 100px;
+      background-color: black;
+      opacity: .8;
+     
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-dark .navbar-brand {
+    color:white !important;
+}
+.navbar{
+    padding: 15px 0 0 0 !important;
+}
+.paragraph-second{
+    padding: 0 100px;
+    text-align: center;
+    font-weight: bold;
+}
+.background_black{
+    background-color: #323232;
+    padding: 0 0 15px 0;
+}
+.edit_color{
+    color: white;
+}
+.edit_box{
+    color: white;
+    background-color: black;
+}
+.header_four{
+    padding: 15px 0 5px 0;
+}
+.header_six{
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 0.4px;
+}
+.paragraph{
+    font-size: 15px;
+}
+.hover_box1, .hover_box2, .hover_box3{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.hover_box1:hover{
+    z-index: 1;
+    background-color: #868B8E;
+    color: white;
+    box-shadow: 5px 5px 30px 5px #858585;
+    transition: 0.5s;
+
+
+}
+.hover_box2:hover{
+    background-color: #868B8E;
+    color: white;
+    box-shadow: 5px 5px 30px 5px #858585;  
+    transition: 0.5s;
+    z-index: 1;
+
+
+
+}
+.hover_box3:hover{
+    background-color: #868B8E;
+    box-shadow: 5px 5px 30px 5px #858585;  
+    color: white;
+    transition: 0.5s;
+    z-index: 1;
+
+
+}
+.hover_box1 a, .hover_box2 a, .hover_box3 a{
+    color: white;
+}
+/* .row .shadowone:hover {
+} */
+
+
+
+
+.second-box{
+    padding: 0 !important;
+}
+.margin_left{
+    margin: 0 0 0 15px;
+}
+.mature_card{
+    background-color: transparent !important;
+    border: none !important;
+}
+.second-box .button{
+    background-color: gray;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+.second-box .button:visited{
+    color: #433d3c;
+}
+.second-box .mature-title {
+    padding: 15px 15px 15px 0 !important;
+}
+.card_sub{
+    font-size: 14px;
+}
+.smallbg{
+    background-color: #868B8E;
+    padding: 5px 0 5px 10px;
+}
+.smallbg2{
+    background-color: #868B8E;
+    padding: 5px 12px 5px 12px;
+}
+.third_artical{
+    padding: 0 !important;
+ }
+ .two_box1{
+     float: left;
+ }
+
+ .image_one{
+    width: 120px;
+    margin: 20px 15px 0 19px;
+    float: left;
+ }
+ .image_one img{
+    width: 27%;
+ }
+ .two_box1 p , .two_box2 p , .two_box3 p{
+    float: left;
+    width: 222px;
+    color: white;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: justify;
+    margin: 28px 0 0 0;
+ }
+
+ .two_box2{
+    float: left;
+    margin-top: 20px;
+}
+.two_box3{
+    float: left;
+    margin-top: 20px;
+}
+
+.footer_text ul li{
+    display: inline-block;
+    padding: 0 10px;
+    float: right;
+}
+.footer_text ul a{
+    text-decoration: none;
+}
+.bg_black{
+    background-color: black;
+    min-height: 100px;
+    line-height: 100px;
+}
+.font_change{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    .footer_text ul li{
+        display: inline-block;
+        padding: 0 10px;
+        float: left;
+    }
+    .bg_black{
+        background-color: black;
+        min-height: 50px;
+        line-height: 50px;
+    }
+    .footer_text .SUPPORT{
+        padding-left: 0px;
+    }
+
+  }
+
+
+
